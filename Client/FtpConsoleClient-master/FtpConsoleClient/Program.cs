@@ -83,7 +83,7 @@ namespace ftpConsoleClient
 			});
 
 			// And by shell-method DefineOperation
-			string[] aliases = new string[] { "ls", "dl", "cd" };
+			string[] aliases = { "ls", "dl", "cd", "uf" };
 
 			// Adds aliases and its appropriate fucntions to commands dictionary
 			foreach (string alias in aliases)
